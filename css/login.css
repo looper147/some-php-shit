@@ -1,0 +1,85 @@
+/*font type*/
+body,form{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/*nav font type*/
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* making the container background color white and adjusting its margin to 80 so it doesn't fall behind the nav*/
+.container{
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 80;
+}
+/*adjusting the width of the inputs and setting margin auto so the inputs stay inside the container*/
+form{
+    width: 50%;
+    margin: auto;
+    
+}
+/*aligning the placeholders in the inputs to the center*/
+.form-control{
+    text-align: center;
+
+}
+/*coloring the icons*/
+i{
+    color:#138496
+}
+
+
+
+
+
+
+
+
+
+.bg {
+    animation:slide 13s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:14s;
+}
+
+.bg3 {
+    animation-duration:15s;
+}
+
+.content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+
+
+
+@keyframes slide {
+    0% {
+    transform:translateX(-25%);
+    }
+100% {
+    transform:translateX(25%);
+    }
+}

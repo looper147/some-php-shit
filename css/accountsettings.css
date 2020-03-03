@@ -1,0 +1,20 @@
+body{
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+#username{
+    cursor: pointer;
+    color: rgb(150, 146, 146)
+}
+#username:hover{
+    color:white;
+}
+#user{
+    cursor: pointer;
+    opacity: 0.7;
+    color: rgb(248, 90, 62);
+}
+#user:hover{
+    opacity: 1;
+}
